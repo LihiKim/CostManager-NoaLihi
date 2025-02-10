@@ -1,0 +1,30 @@
+==================================================
+EXPENSE TRACKER API TESTS
+==================================================
+Testing against server: http://localhost:9001
+Make sure your Node.js server is running!
+==================================================
+
+Testing getting the about
+-------------------------
+Sending GET request to: http://localhost:9001/api/about
+Connection Error: Make sure your Node.js server is running on port 9001
+
+Testing getting the report - 1
+------------------------------
+Sending GET request to: http://localhost:9001/api/report
+With params: {'id': '123123', 'year': '2025', 'month': '2'}
+Connection Error: Make sure your Node.js server is running on port 3000
+
+Testing adding cost item
+----------------------------------
+Sending POST request to: http://localhost:9001/api/add
+With data: {'userid': 123123, 'description': 'milk 9', 'category': 'food', 'sum': 8}
+Connection Error: Make sure your Node.js server is running on port 3000
+
+Testing getting the report - 2
+------------------------------
+Sending GET request to: http://localhost:9001/api/report
+With params: {'id': '123123', 'year': '2025', 'month': '2'}
+Connection Error: Make sure your Node.js server is running on port 3000
+
