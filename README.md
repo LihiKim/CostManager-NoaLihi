@@ -120,14 +120,14 @@ expense-tracker/
 
 - **Base URL:**
   ```
-  https://expense-tracker-bs5z.onrender.com
+https://costmanager-noalihi.onrender.com
   ```
 - **Test Endpoints:**
   ```
-  GET  https://expense-tracker-bs5z.onrender.com/api/about
-  POST https://expense-tracker-bs5z.onrender.com/api/costs/add
-  GET  https://expense-tracker-bs5z.onrender.com/api/report?id=123123&year=2025&month=2
-  GET  https://expense-tracker-bs5z.onrender.com/api/users/123123
+  GET  https://costmanager-noalihi.onrender.com/api/about
+  POST ttps://costmanager-noalihi.onrender.com/api/costs/add
+  GET  https://costmanager-noalihi.onrender.com/api/report?id=123123&year=2025&month=2
+  GET  https://costmanager-noalihi.onrender.com/api/users/123123
   ```
 
 ## 🧪 Testing
